@@ -2,7 +2,7 @@
 title: Corosync
 description: 
 published: true
-date: 2025-04-10T03:28:40.693Z
+date: 2025-04-10T03:29:48.480Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-10T03:28:40.693Z
@@ -13,6 +13,7 @@ https://pve.proxmox.com/pve-docs/chapter-pvecm.html
 
 # Reference
 ## Edit configuration
+https://pve.proxmox.com/pve-docs/chapter-pvecm.html#pvecm_edit_corosync_conf
 ```
 nano /etc/pve/corosync.conf
 ```
