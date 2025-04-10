@@ -2,7 +2,7 @@
 title: Ceph
 description: 
 published: true
-date: 2025-04-10T02:57:18.545Z
+date: 2025-04-10T02:59:05.760Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-10T02:57:18.545Z
@@ -22,11 +22,11 @@ ceph pg ls-by-pool <pool>
 https://docs.ceph.com/en/latest/dev/crush-msr/
 ```
 rule msr_rule {
-    id 2
+    id <#>
     type msr_firstn
     step take default
-    step choosemsr 3 type host
-    step choosemsr 2 type osd
+    step choosemsr <#> type host
+    step choosemsr <#> type osd
     step emit
 }
 ```
